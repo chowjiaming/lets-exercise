@@ -7,9 +7,7 @@ export const Footer: React.FC<FlexProps> = ({children, ...props}) => {
       role="contentinfo"
       justify="center"
       wrap="wrap"
-      padding="4"
-      bg="teal.500"
-      color="white"
+      p="4"
       {...props}
     >
       {children}

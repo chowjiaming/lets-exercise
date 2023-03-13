@@ -1,5 +1,6 @@
-import {Box, Button, Heading} from '@chakra-ui/react';
+import {Box} from '@chakra-ui/react';
 import Image from 'next/image';
+import {ColorModeToggle} from '@/components/navbar/ColorModeToggle';
 
 export const NavbarComponent: React.FC = () => {
   return (
@@ -13,18 +14,7 @@ export const NavbarComponent: React.FC = () => {
       >
         <Image src="/logo.png" alt="Logo" width={512} height={512} />
       </Box>
-      <Heading
-        as="h1"
-        size={{
-          base: 'md',
-          sm: 'md',
-          md: 'lg',
-          xl: 'xl',
-        }}
-      >
-        Let&apos;s Exercise
-      </Heading>
-      <Button colorScheme="twitter">Dummy</Button>
+      <ColorModeToggle />
     </>
   );
 };

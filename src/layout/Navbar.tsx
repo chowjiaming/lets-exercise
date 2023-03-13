@@ -8,9 +8,8 @@ export const Navbar: React.FC<FlexProps> = ({children, ...props}) => {
       justify="space-between"
       align="center"
       wrap="wrap"
-      padding="4"
-      bg="teal.500"
-      color="white"
+      py="4"
+      px="8"
       {...props}
     >
       {children}

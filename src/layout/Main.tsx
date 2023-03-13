@@ -9,9 +9,7 @@ export const Main: React.FC<FlexProps> = ({children, ...props}) => {
       align="center"
       justify="center"
       wrap="wrap"
-      padding="6"
-      bg="teal.100"
-      color="white"
+      p="6"
       {...props}
     >
       {children}
