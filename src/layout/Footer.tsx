@@ -5,10 +5,9 @@ export const Footer: React.FC<FlexProps> = ({children, ...props}) => {
     <Flex
       as="footer"
       role="contentinfo"
-      align="center"
-      justify="space-between"
+      justify="center"
       wrap="wrap"
-      padding="6"
+      padding="4"
       bg="teal.500"
       color="white"
       {...props}

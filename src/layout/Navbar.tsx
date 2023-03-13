@@ -5,10 +5,10 @@ export const Navbar: React.FC<FlexProps> = ({children, ...props}) => {
     <Flex
       as="nav"
       role="navigation"
-      align="center"
       justify="space-between"
+      align="center"
       wrap="wrap"
-      padding="6"
+      padding="4"
       bg="teal.500"
       color="white"
       {...props}

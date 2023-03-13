@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Meta />
+      <Meta page="Home" />
     </>
   );
 };
